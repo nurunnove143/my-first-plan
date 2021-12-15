@@ -10,6 +10,10 @@ class _MyAccountState extends State<MyAccount> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text("My Account")
+      ),
       body: Center(child:
       Text("My Account"),),
     );
